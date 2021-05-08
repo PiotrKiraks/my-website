@@ -1,0 +1,292 @@
+
+ html, body {
+  margin:0;
+  padding:0;
+  height:100%
+ }
+
+.hero{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+    height: 1080px;
+    position: relative;
+
+}
+
+.hero-content {
+  
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    z-index: 10;
+    
+    
+}
+
+
+#tło{
+  width: 100%;
+    height: 1080px;
+    position: relative;
+    
+}
+
+.wolf{
+
+    top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    transition: 0.6s cubic-bezier(1, 0, 0, 1);
+    transition-property: initial;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+    transition-property:initial;
+}
+ .wolf:hover{
+     transform: rotate(360deg)
+
+ }
+
+  .name{
+
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    margin-right: -20%;
+    transform: translate(-50%, -50%);
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 45px;
+    color: #fff;
+
+  }
+
+  .lista { 
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    justify-content: flex;
+    justify-content:space-between;
+  
+  }
+  
+  .lista ul{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .lista ul li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  .lista ul li a{
+  
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    font-family: 'Coda Caption', sans-serif;
+    border-radius:20px ;
+  }
+    
+.lista ul li a:hover, .lista ul li a.active{
+  background:#fff ;
+  color: #2b1055;
+
+}
+
+
+  .omnie{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1080px;
+    position: relative;
+    background-color: #2b1055;
+    
+
+  }
+
+
+  .piotrek, .opis{
+
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    padding-top: 5%; 
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Coda Caption', sans-serif;
+    
+
+  }
+
+
+  #podroz{
+    width: 22em;
+    display:flex;
+    align-items:flex-end;
+    
+  }
+
+  #technik{
+    width: 22em;
+  }
+
+  .obrazki{
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+
+  .doswiadczenie{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-image: linear-gradient(180deg, #2b1055, #807297);
+
+  }
+
+
+
+  .con{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-gap: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Coda Caption', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+  .con .box{
+    position: relative;
+    background: #fff;
+    padding: 20px 40px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+  .con .box:nth-child(1)
+
+  {background: linear-gradient(45deg,#036eb7,#64eaff);
+
+  }
+
+  .con .box:nth-child(2)
+
+  {background: linear-gradient(45deg,#086d35,#00ff72);
+
+  }
+    .con .box:nth-child(3)
+
+    {background: linear-gradient(45deg,#f05a4f,#f4c030);
+  
+    }
+
+    .con .box h2{
+      position: relative;
+      margin: 0;
+      padding: 0;
+      font-size: 100px;
+      color: #fff;
+      z-index: 1;
+      opacity: 0.4;
+      
+    }
+
+    .con .box h3{
+
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      font-size: 24px;
+      text-transform: uppercase;
+
+    }
+
+
+    .con .box p{
+
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+
+    }
+
+
+    .box {
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .box:hover{
+      transform: scale(0.9);
+    }
+
+
+    .kontakt{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-image: linear-gradient(180deg, #807297, #ffffff);
+
+    }
+
+      
+
+    .formField{font: inherit; border: 1px solid #ccc; border-radius: 3px; margin: 3px 0 10px 0; padding: 3px 0 }
+    textarea.formField{width: 300px; height: 70px}
+    #sendBtn{cursor:pointer;background: #ccc; background: linear-gradient(#ddd 0, #eee 100%); border: 1px solid #ccc; line-height: 32px; font-size: 14px;padding: 0 25px; border-radius: 3px }
+    #send_form_status{border: 1px dashed #ccc;display: none; padding: 0 10px; margin: 10px 0}
+    
+
+
+
+    .kontakt .form {
+      font-family: 'Coda Caption', sans-serif;
+      color: #fff;
+      font-size: 30px;
+      
+      
+    }
+    
+    .wolfi{
+      width: 22em;
+    }
+
+
+    .stopka {  
+    position:absolute;
+		bottom:0;
+		width:100%;
+		height:60px;		
+		background:#a296b6;
+    font-family: 'Coda Caption', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+  
+
+    
